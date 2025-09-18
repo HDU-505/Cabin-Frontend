@@ -1,0 +1,33 @@
+{
+  "name": "neurox-cn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bundled-es-modules/axios": "^0.27.2",
+    "@element-plus/icons": "^0.0.11",
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vue/runtime-core": "^3.4.27",
+    "axios": "^1.4.0",
+    "chart.js": "^4.4.3",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.3.7",
+    "js-cookie": "^3.0.5",
+    "mitt": "^3.0.1",
+    "mqtt": "^4.3.8",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.3.1",
+    "vue-echarts": "^6.7.2",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.2",
+    "vue3-video-play": "^1.3.1-beta.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
