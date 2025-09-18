@@ -1,2 +1,32 @@
-Logs\n*.log\n\n# Build\n/build/\n/target/\n\n# IDE\n.idea/\n.vscode/\n*.iml\n\n# System\n.DS_Store\nThumbs.db\n
-.idea/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+.vscode/
+.public/

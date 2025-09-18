@@ -1,0 +1,7 @@
+	// index.js 调用接口的方法
+	// 引入封装的get/post请求方法
+	import { get, post} from '@/api/http'
+	
+	export const getD = (url,m,hearder) => get(url,m,hearder)
+	export const postD = (url,m,hearder) => post(url,m,hearder)
+
